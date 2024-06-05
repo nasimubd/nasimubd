@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="indexStyle.css">
+    <title>Home Page</title>
+</head>
+
+<body>
+    <!-- HEADER SECTION -->
+    <header>
+        <nav class="nav">
+            <div class="container-nav">
+                <h1 class="logo"><a href="index.html">DUBO Martial Arts</a></h1>
+                <ul>
+                    <li><a href="#" class="current">Home</a></li>
+                    <li><a href="availablePrograms.html">Available Programs</a></li>
+                    <li><a href="schedule.html">Schedule</a></li>
+                    <li><a href="membership.html">Membership</a></li>
+                    <button class="btn" id="loginButton">Login</button>
+                    <button class="btn2" id="logoutButton" style="display:none;">Logout</button>
+                </ul>
+            </div>
+        </nav>
+        <div id="loginModal">
+            <div id="loginModalContent">
+                <span id="closeModal">&times;</span>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </form>
+                <button id="submitLogin">login</button>
+            </div>
+        </div>
+    </header>
+    <!-- FORM FOR LOGIN -->
+    <!-- <div class="overlay"></div> -->
+    <!-- MAIN SECTION -->
+    <main>
+        <div class="hero">
+            <div class="container"></div>
+        </div>
+        <div class="parent">
+            <div class="child1">
+                <pre>
+        FEELING STRONG
+        FEELS GOOD!
+            </pre>
+            </div>
+            <div class="child2">
+                <pre>
+        FOR NEW USERS UP TO 15% OFF
+        FOR LIMITED TIME PERIOD
+                </pre>
+            </div>
+            <div class="child3">
+                2.2 MILLION+<br>
+                DOLLARS FACILITY
+            </div>
+        </div>
+        <div class="martialArts">
+            <div class="image2">
+                <img src="image/training_weights-1024x455.jpg" alt="SHOWER AND CHANGING ROOM">
+            </div>
+            <div class="text2">
+                <p>
+                    The colossal gym pulsed with energy. Sweat glistened on bodies moving between a labyrinth of weight
+                    machines. In one
+                    corner, a group grunted during a high-intensity interval training class. Another area offered rows
+                    of treadmills with
+                </p>
+                <div class="button">
+                    <a href="facilities.html">EXPLORE FACILITY</a>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <!-- FOOTER SECTION -->
+    <footer>
+        <div class="footerInfo">
+            <ul>
+                <li><a href="aboutUs.html">ABOUT US</a></li>
+                <li><a href="contactUs.html">CONTACT US</a></li>
+            </ul>
+            <p>© 2024 DoBu Martial Art Gym. All Rights Reserved</p>
+        </div>
+    </footer>
+    <script src="login.js"></script>
+</body>
+
+</html>
